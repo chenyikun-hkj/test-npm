@@ -9,7 +9,7 @@ on:
     branches: [ develop, release/* ]
 
 jobs:
-  if_merged
+  if_merged:
     build:
       runs-on: ubuntu-latest
       steps:
