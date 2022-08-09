@@ -19,5 +19,8 @@
   "homepage": "https://github.com/chenyikun-hkj/test-npm#readme",
   "devDependencies": {
     "@types/node": "^18.6.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
