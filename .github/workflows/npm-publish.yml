@@ -18,7 +18,6 @@ jobs:
           node-version: 14.7.0
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm run publish
 
   publish-npm:
     needs: build
