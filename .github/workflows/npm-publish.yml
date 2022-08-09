@@ -5,10 +5,12 @@ name: Node.js Package
 
 on:
   pull_request:
+    types: [ closed ]
     branches: [ develop, release/* ]
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,6 +21,7 @@ jobs:
       - run: npm ci
 
   publish-npm:
+    if: github.event.pull_request.merged == true
     needs: build
     runs-on: ubuntu-latest
     steps:
