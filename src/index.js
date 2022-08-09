@@ -1,3 +1,3 @@
 module.exports = function() {
-    console.log('asdasdasd')
+    console.log('111')
 }
