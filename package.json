@@ -11,7 +11,10 @@
     "url": "git+https://github.com/chenyikun-hkj/test-npm.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "email": "yikunchen@hireez.com",
+    "name": "chenyikun-hkj"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chenyikun-hkj/test-npm/issues"
